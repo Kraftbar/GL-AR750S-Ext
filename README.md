@@ -14,8 +14,8 @@ uci set wireless.default_radio1.ssid='Un birra mas por favor'
 uci set wireless.default_radio1.encryption='sae-mixed'
 uci set wireless.default_radio1.key="$pw"
 #uci set wireless.default_radio1.disabled=0
-uci set wireless.radio0.disabled=0
-uci set wireless.radio1.disabled=0
+uci del wireless.radio0.disabled &> /dev/null
+uci del wireless.radio1.disabled &> /dev/null
 uci commit wireless
 wifi
 ```
