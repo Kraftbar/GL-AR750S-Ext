@@ -1,5 +1,5 @@
 # GL-AR750S-Ext  
-Just some notes on how I configure GL-AR750S-Ext after a reset 
+Just some notes on how I configure GL-AR750S-Ext after an reset 
 ```sh
 # Put the pw before running /pasting 
 rm $home/.ssh/known_hosts  
